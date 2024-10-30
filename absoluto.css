@@ -1,0 +1,97 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+header{
+    background-color: rgb(250, 197, 128);
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.imagen{
+    display: block;
+    margin-left: 105px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    max-width: 80%;
+    border-radius: 15px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: -25px;
+    width: 200px;
+    background-color: rgb(250, 197, 128);
+    position: fixed;
+    top: 112px;
+    height: 110%;
+}
+
+.menu ul li{
+    border-bottom: 2px solid #d9d9d9;
+    width: 100%;
+}
+
+.menu ul li a{
+    display: block;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.caja {
+    background-color: #d9d9d9;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    height: 180px;
+    border-radius: 15px;
+    flex: 1 1 30%;
+}
+
+main{
+    margin-left: 210px;
+    margin-right: 10px;
+    padding: 25px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: rgb(250, 197, 128);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+p, ul{
+    font-size: 18px;
+}
+
+h3{
+    text-align: center;
+}
